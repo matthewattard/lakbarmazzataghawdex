@@ -1,0 +1,18 @@
+C:\Users\Matthew\OneDrive\University\Semester 1 - year 2\OOP assigment\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Matthew\OneDrive\University\Semester 1 - year 2\OOP assigment\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Matthew\OneDrive\University\Semester 1 - year 2\OOP assigment\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Matthew\OneDrive\University\Semester 1 - year 2\OOP assigment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Matthew\OneDrive\University\Semester 1 - year 2\OOP assigment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Matthew\OneDrive\University\Semester 1 - year 2\OOP assigment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Users\Matthew\OneDrive\University\Semester 1 - year 2\OOP assigment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Matthew\OneDrive\University\Semester 1 - year 2\OOP assigment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Matthew\OneDrive\University\Semester 1 - year 2\OOP assigment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Matthew\OneDrive\University\Semester 1 - year 2\OOP assigment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\Ezek_\Desktop\OOP assigment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+C:\Users\Ezek_\Desktop\OOP assigment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Ezek_\Desktop\OOP assigment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Ezek_\Desktop\OOP assigment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.Cache
+C:\Users\Ezek_\Desktop\OOP assigment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Ezek_\Desktop\OOP assigment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Ezek_\Desktop\OOP assigment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Ezek_\Desktop\OOP assigment\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.MusicNote.resources
