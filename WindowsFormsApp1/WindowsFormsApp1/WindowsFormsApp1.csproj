@@ -54,6 +54,9 @@
     <Compile Include="KeyBoardhandling.Designer.cs">
       <DependentUpon>KeyBoardhandling.cs</DependentUpon>
     </Compile>
+    <Compile Include="MusicKeyboard.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="MusicNote.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -73,6 +76,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MusicKeyboard.resx">
+      <DependentUpon>MusicKeyboard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MusicNote.resx">
       <DependentUpon>MusicNote.cs</DependentUpon>

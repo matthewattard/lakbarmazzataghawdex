@@ -17,6 +17,7 @@ namespace WindowsFormsApp1
         private Button play;
         private Button clear;
         private MusicNote mn= new MusicNote();
+        private MusKey muskey = new MusKey();
 
         public MusicStaff():base()
         {
@@ -72,7 +73,7 @@ namespace WindowsFormsApp1
             g.Dispose();
         }
 
-        private void AddNote(MusicNote musicNote)
+        public void AddNote(MusicNote musicNote)
         {
             musicNotes.Add(musicNote);
             this.Controls.Add(musicNote);

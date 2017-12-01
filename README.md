@@ -1,2 +1,0 @@
-# lakbarmazzataghawdex
-Il-Fuq LILY

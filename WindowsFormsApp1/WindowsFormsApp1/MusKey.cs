@@ -20,6 +20,11 @@ namespace WindowsFormsApp1
             this.BackColor = Color.White;
         }
 
+        public MusKey() : base()
+        {
+
+        }
+
         public int MusicNote
         {
             get

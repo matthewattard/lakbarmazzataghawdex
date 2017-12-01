@@ -10,7 +10,7 @@ using System.Threading;
 
 namespace WindowsFormsApp1
 {
-    class MusicNote : PictureBox
+    public class MusicNote : PictureBox
     {
         private static string rootFolder = "C:\\Users\\Matthew\\OneDrive\\University\\Semester 1 - year 2\\OOP assigment\\Notes-Images\\";
 
