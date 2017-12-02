@@ -12,7 +12,7 @@ namespace WindowsFormsApp1
 {
     public class MusicNote : PictureBox
     {
-        private static string rootFolder = "C:\\Users\\Matthew\\OneDrive\\University\\Semester 1 - year 2\\OOP assigment\\Notes-Images\\";
+        private static string rootFolder = "C:\\Users\\Ezek_\\source\\repos\\lakbarmazzataghawdex2\\Notes-Images";
 
         private int notePitch;
         private int duration;
@@ -156,7 +156,7 @@ namespace WindowsFormsApp1
             }
             else if(e.Button == MouseButtons.Middle)
             {
-                String folderpath = "C:\\Users\\Matthew\\OneDrive\\University\\Semester 1 - year 2\\OOP assigment\\Notes-Sound files\\mapped\\";
+                String folderpath = "C:\\Users\\Ezek_\\source\\repos\\lakbarmazzataghawdex2\\Notes-Sound files\\mapped";
                 //timer1.Enabled = true;
                 //count = 0;
                 SoundPlayer sp = new SoundPlayer();
