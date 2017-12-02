@@ -12,26 +12,32 @@ namespace WindowsFormsApp1
     class MusicKeyboard: MusicStaff
     {
         private Timer timer1;
-        private System.ComponentModel.IContainer components;
+        private System.ComponentModel.Container components;
 
         private int count;
         private int xLoc;
         private int yLoc;
         SoundPlayer sp;
+        
 
         public MusicKeyboard() : base()
         {
             timer1 = new Timer();
             MusKey mk;
             BlackMusKey bmk;
+            KeyBoardEntries ke;
             int[] whitePitch = { 1, 3, 5, 6, 8, 10, 12, 13, 15, 17, 18, 20, 22, 24 };
             for (int k = 0; k < whitePitch.Length; k++)
             {
+                
                 int pitch = whitePitch[k];
                 int xPos = k * 20;
                 mk = new MusKey(pitch, xPos, 20);
+                ke = new KeyBoardEntries(timer1, count,xLoc,yLoc);
                 mk.MouseDown += new MouseEventHandler(this.button1_MouseDown);
                 mk.MouseUp += new MouseEventHandler(this.button1_MouseUp);
+               mk.KeyDown += new KeyEventHandler(ke.button1_KeyDown);
+               mk.KeyUp += new KeyEventHandler(ke.button1_KeyUp);
                 this.Controls.Add(mk);
             }
             int[] blackPitch = { 2, 4, 7, 9, 11, 14, 16, 19, 21, 23 };
@@ -46,6 +52,7 @@ namespace WindowsFormsApp1
                 this.Controls.Add(bmk);
                 this.Controls[this.Controls.Count - 1].BringToFront();
             }
+
         }
 
         private void button1_MouseUp(object sender, MouseEventArgs e)
@@ -109,15 +116,15 @@ namespace WindowsFormsApp1
 
         private void button1_MouseDown(object sender, MouseEventArgs e)
         {
-            String folderpath = "C:\\Users\\Matthew\\OneDrive\\University\\Semester 1 - year 2\\OOP assigment\\Notes-Sound files\\mapped\\";
+            String folderpath = "C:\\Users\\Ezek_\\source\\repos\\lakbarmazzataghawdex2\\Notes-Sound files";
             sp = new SoundPlayer();
             foreach (Object obj in this.Controls)
             {
-                if(obj.GetType() = MusKey.getType())
-                {
+             //   if(obj.GetType() =MusKey.getType())
+               // {
 
-                }
-                MusKey mk = ()
+              //  }
+                MusKey mk = new MusKey();
                 if (sender == mk)
                 {
                     if (e.Button == MouseButtons.Left)
@@ -128,7 +135,7 @@ namespace WindowsFormsApp1
                         sp.SoundLocation = folderpath + mk.MusicNote.ToString() + ".wav";
                         sp.Play();
                     }
-                }
+                }   
             }
         }
 
@@ -137,13 +144,15 @@ namespace WindowsFormsApp1
             count++;
         }
 
-        private void InitializeComponent()
+        public void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
-            this.ResumeLayout(false);
+            this.ResumeLayout(false); 
+        } 
+       
 
-        }
+        
     }
 }

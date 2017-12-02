@@ -13,14 +13,12 @@ using System.Windows.Forms;
 namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
-    { 
-        MusicStaff musicStaff;
+    {
         MusicKeyboard musicKeyboard;
 
         public Form1()
         {
-            InitializeComponent();
-            
+          InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -34,7 +32,7 @@ namespace WindowsFormsApp1
             //the music keyboard panel
             musicKeyboard = new MusicKeyboard();
             musicKeyboard.Location = new Point(10, 250);
-            this.Controls.Add(musicKeyboard);
+            
 
 
         }

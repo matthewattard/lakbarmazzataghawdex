@@ -50,7 +50,7 @@ namespace WindowsFormsApp1
 
         private void Play_MouseClick(object sender, MouseEventArgs e)
         {
-            String folderpath = "C:\\Users\\Matthew\\OneDrive\\University\\Semester 1 - year 2\\OOP assigment\\Notes-Sound files\\mapped\\";
+            String folderpath = "C:\\Users\\Ezek_\\source\\repos\\lakbarmazzataghawdex2\\Notes-Sound files\\mapped\\";
             SoundPlayer sp = new SoundPlayer();
             foreach(Object obj in this.Controls)
             {
