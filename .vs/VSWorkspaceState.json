@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WindowsFormsApp1",
+    "\\WindowsFormsApp1\\WindowsFormsApp1"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\WindowsFormsApp1\\WindowsFormsApp1\\MusicKeyboard.cs",
   "PreviewInSolutionExplorer": false
 }

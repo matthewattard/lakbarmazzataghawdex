@@ -11,16 +11,16 @@
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
+        protected  void Dispose(bool disposing)
         {
             if (disposing && (components != null))
             {
                 components.Dispose();
             }
-            base.Dispose(disposing);
+            Dispose(disposing);
         }
 
-        #region Component Designer generated code
+      
 
         /// <summary>
         /// Required method for Designer support - do not modify
@@ -31,10 +31,6 @@
             components = new System.ComponentModel.Container();
         }
 
-        #endregion
-
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Timer timer1;
+       
     }
 }
